@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="T4F-6Y-SKo">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Minhas Anotações-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Minhas_Anotacoes" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fundo" translatesAutoresizingMaskIntoConstraints="NO" id="gmY-ki-U28">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kZ5-wI-0Wb">
+                                <rect key="frame" x="41" y="327" width="293" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="yFX-3N-aOs"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="botao_salvar"/>
+                                <connections>
+                                    <action selector="salvarAnotacao:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FDB-aI-hMs"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bDY-ET-es6">
+                                <rect key="frame" x="41" y="54" width="291" height="265"/>
+                                <color key="backgroundColor" red="0.99026733639999998" green="0.97940498590000002" blue="0.76074814800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bDY-ET-es6" secondAttribute="trailing" constant="43" id="0A2-js-nzU"/>
+                            <constraint firstItem="gmY-ki-U28" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="B7p-sR-FL9"/>
+                            <constraint firstItem="gmY-ki-U28" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Ena-6Z-66L"/>
+                            <constraint firstItem="kZ5-wI-0Wb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="41" id="OAi-Eb-tTb"/>
+                            <constraint firstItem="bDY-ET-es6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="Qrr-mu-a2I"/>
+                            <constraint firstItem="kZ5-wI-0Wb" firstAttribute="top" secondItem="bDY-ET-es6" secondAttribute="bottom" constant="8" id="jEj-3m-cXU"/>
+                            <constraint firstItem="gmY-ki-U28" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="mwc-1L-NZO"/>
+                            <constraint firstItem="bDY-ET-es6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="41" id="sZO-gG-Q9k"/>
+                            <constraint firstItem="gmY-ki-U28" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="sly-Nm-MNz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kZ5-wI-0Wb" secondAttribute="trailing" constant="41" id="xL7-Zy-WYY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kZ5-wI-0Wb" secondAttribute="bottom" constant="291" id="xOx-U7-UN0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Minhas Anotações" id="xrk-mE-JdH"/>
+                    <connections>
+                        <outlet property="textoCampo" destination="bDY-ET-es6" id="W3F-y6-t1t"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1069.5999999999999" y="116.49175412293854"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="oAe-N0-dce">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="T4F-6Y-SKo" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5eE-dY-CpU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.25430083269999998" green="0.2042993307" blue="0.1803873181" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="nfK-qY-i6B"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cCM-H7-p3I" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.40000000000001" y="116.49175412293854"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="botao_salvar" width="107" height="12.666666984558105"/>
+        <image name="fundo" width="256" height="154"/>
+    </resources>
+</document>
