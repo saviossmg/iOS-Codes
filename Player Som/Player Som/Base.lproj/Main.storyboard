@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Player_Som" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="dNN-En-dKi">
+                                <rect key="frame" x="94" y="388" width="226" height="120"/>
+                                <subviews>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="CGG-at-xiJ">
+                                        <rect key="frame" x="-2" y="0.0" width="230" height="39"/>
+                                        <connections>
+                                            <action selector="volume:" destination="BYZ-38-t0r" eventType="valueChanged" id="I3W-Aa-Fwx"/>
+                                        </connections>
+                                    </slider>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="a6b-hn-2rJ">
+                                        <rect key="frame" x="0.0" y="58" width="226" height="62"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DWh-VF-wx3">
+                                                <rect key="frame" x="0.0" y="0.0" width="72" height="62"/>
+                                                <state key="normal" image="play"/>
+                                                <connections>
+                                                    <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rv0-dB-MtC"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="skG-hj-QiU">
+                                                <rect key="frame" x="77" y="0.0" width="72" height="62"/>
+                                                <state key="normal" image="pause"/>
+                                                <connections>
+                                                    <action selector="pause:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r2j-48-Wjs"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JEI-SG-qwR">
+                                                <rect key="frame" x="154" y="0.0" width="72" height="62"/>
+                                                <state key="normal" image="stop"/>
+                                                <connections>
+                                                    <action selector="stop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DGF-Tr-eOo"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="226" id="W09-dJ-bMB"/>
+                                    <constraint firstAttribute="height" constant="120" id="jYY-Iq-1Yc"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="dNN-En-dKi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EdB-Iy-Efl"/>
+                            <constraint firstItem="dNN-En-dKi" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="s2g-0Q-3nO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="sliderVolume" destination="CGG-at-xiJ" id="eh9-Mw-4VO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="pause" width="72" height="62"/>
+        <image name="play" width="72" height="62"/>
+        <image name="stop" width="72" height="62"/>
+    </resources>
+</document>

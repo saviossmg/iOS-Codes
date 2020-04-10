@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDFCA275243FC180003D8EC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFCA274243FC180003D8EC1 /* AppDelegate.swift */; };
+		FDFCA277243FC180003D8EC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFCA276243FC180003D8EC1 /* SceneDelegate.swift */; };
+		FDFCA279243FC180003D8EC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFCA278243FC180003D8EC1 /* ViewController.swift */; };
+		FDFCA27C243FC180003D8EC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDFCA27A243FC180003D8EC1 /* Main.storyboard */; };
+		FDFCA27E243FC181003D8EC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDFCA27D243FC181003D8EC1 /* Assets.xcassets */; };
+		FDFCA281243FC181003D8EC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDFCA27F243FC181003D8EC1 /* LaunchScreen.storyboard */; };
+		FDFCA29B243FC38E003D8EC1 /* ovelha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDFCA295243FC38E003D8EC1 /* ovelha.mp3 */; };
+		FDFCA29C243FC38E003D8EC1 /* vaca.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDFCA296243FC38E003D8EC1 /* vaca.mp3 */; };
+		FDFCA29D243FC38E003D8EC1 /* gato.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDFCA297243FC38E003D8EC1 /* gato.mp3 */; };
+		FDFCA29E243FC38E003D8EC1 /* cao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDFCA298243FC38E003D8EC1 /* cao.mp3 */; };
+		FDFCA29F243FC38E003D8EC1 /* macaco.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDFCA299243FC38E003D8EC1 /* macaco.mp3 */; };
+		FDFCA2A0243FC38E003D8EC1 /* leao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDFCA29A243FC38E003D8EC1 /* leao.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FDFCA271243FC180003D8EC1 /* Son dos Bichos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Son dos Bichos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDFCA274243FC180003D8EC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDFCA276243FC180003D8EC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FDFCA278243FC180003D8EC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDFCA27B243FC180003D8EC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDFCA27D243FC181003D8EC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDFCA280243FC181003D8EC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDFCA282243FC181003D8EC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDFCA295243FC38E003D8EC1 /* ovelha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ovelha.mp3; sourceTree = "<group>"; };
+		FDFCA296243FC38E003D8EC1 /* vaca.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vaca.mp3; sourceTree = "<group>"; };
+		FDFCA297243FC38E003D8EC1 /* gato.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gato.mp3; sourceTree = "<group>"; };
+		FDFCA298243FC38E003D8EC1 /* cao.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cao.mp3; sourceTree = "<group>"; };
+		FDFCA299243FC38E003D8EC1 /* macaco.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = macaco.mp3; sourceTree = "<group>"; };
+		FDFCA29A243FC38E003D8EC1 /* leao.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = leao.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDFCA26E243FC180003D8EC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDFCA268243FC180003D8EC1 = {
+			isa = PBXGroup;
+			children = (
+				FDFCA273243FC180003D8EC1 /* Son dos Bichos */,
+				FDFCA272243FC180003D8EC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDFCA272243FC180003D8EC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDFCA271243FC180003D8EC1 /* Son dos Bichos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDFCA273243FC180003D8EC1 /* Son dos Bichos */ = {
+			isa = PBXGroup;
+			children = (
+				FDFCA288243FC358003D8EC1 /* sons */,
+				FDFCA274243FC180003D8EC1 /* AppDelegate.swift */,
+				FDFCA276243FC180003D8EC1 /* SceneDelegate.swift */,
+				FDFCA278243FC180003D8EC1 /* ViewController.swift */,
+				FDFCA27A243FC180003D8EC1 /* Main.storyboard */,
+				FDFCA27D243FC181003D8EC1 /* Assets.xcassets */,
+				FDFCA27F243FC181003D8EC1 /* LaunchScreen.storyboard */,
+				FDFCA282243FC181003D8EC1 /* Info.plist */,
+			);
+			path = "Son dos Bichos";
+			sourceTree = "<group>";
+		};
+		FDFCA288243FC358003D8EC1 /* sons */ = {
+			isa = PBXGroup;
+			children = (
+				FDFCA298243FC38E003D8EC1 /* cao.mp3 */,
+				FDFCA297243FC38E003D8EC1 /* gato.mp3 */,
+				FDFCA29A243FC38E003D8EC1 /* leao.mp3 */,
+				FDFCA299243FC38E003D8EC1 /* macaco.mp3 */,
+				FDFCA295243FC38E003D8EC1 /* ovelha.mp3 */,
+				FDFCA296243FC38E003D8EC1 /* vaca.mp3 */,
+			);
+			path = sons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDFCA270243FC180003D8EC1 /* Son dos Bichos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDFCA285243FC181003D8EC1 /* Build configuration list for PBXNativeTarget "Son dos Bichos" */;
+			buildPhases = (
+				FDFCA26D243FC180003D8EC1 /* Sources */,
+				FDFCA26E243FC180003D8EC1 /* Frameworks */,
+				FDFCA26F243FC180003D8EC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Son dos Bichos";
+			productName = "Son dos Bichos";
+			productReference = FDFCA271243FC180003D8EC1 /* Son dos Bichos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDFCA269243FC180003D8EC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Savio Martins Valentim";
+				TargetAttributes = {
+					FDFCA270243FC180003D8EC1 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = FDFCA26C243FC180003D8EC1 /* Build configuration list for PBXProject "Son dos Bichos" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDFCA268243FC180003D8EC1;
+			productRefGroup = FDFCA272243FC180003D8EC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDFCA270243FC180003D8EC1 /* Son dos Bichos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDFCA26F243FC180003D8EC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDFCA281243FC181003D8EC1 /* LaunchScreen.storyboard in Resources */,
+				FDFCA29F243FC38E003D8EC1 /* macaco.mp3 in Resources */,
+				FDFCA29C243FC38E003D8EC1 /* vaca.mp3 in Resources */,
+				FDFCA29D243FC38E003D8EC1 /* gato.mp3 in Resources */,
+				FDFCA27E243FC181003D8EC1 /* Assets.xcassets in Resources */,
+				FDFCA29E243FC38E003D8EC1 /* cao.mp3 in Resources */,
+				FDFCA2A0243FC38E003D8EC1 /* leao.mp3 in Resources */,
+				FDFCA29B243FC38E003D8EC1 /* ovelha.mp3 in Resources */,
+				FDFCA27C243FC180003D8EC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDFCA26D243FC180003D8EC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDFCA279243FC180003D8EC1 /* ViewController.swift in Sources */,
+				FDFCA275243FC180003D8EC1 /* AppDelegate.swift in Sources */,
+				FDFCA277243FC180003D8EC1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDFCA27A243FC180003D8EC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDFCA27B243FC180003D8EC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDFCA27F243FC181003D8EC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDFCA280243FC181003D8EC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDFCA283243FC181003D8EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDFCA284243FC181003D8EC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDFCA286243FC181003D8EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Son dos Bichos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SVM-Dev.Son-dos-Bichos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDFCA287243FC181003D8EC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Son dos Bichos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SVM-Dev.Son-dos-Bichos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDFCA26C243FC180003D8EC1 /* Build configuration list for PBXProject "Son dos Bichos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDFCA283243FC181003D8EC1 /* Debug */,
+				FDFCA284243FC181003D8EC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDFCA285243FC181003D8EC1 /* Build configuration list for PBXNativeTarget "Son dos Bichos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDFCA286243FC181003D8EC1 /* Debug */,
+				FDFCA287243FC181003D8EC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDFCA269243FC180003D8EC1 /* Project object */;
+}
